@@ -60,6 +60,7 @@
     }
 
     function formatNumber(num) {
+        const number = parseFloat(num);
         return (num >= 1 && num <= 9) ? num.toFixed(1) : String(num);
     }
 
