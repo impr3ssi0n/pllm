@@ -43,7 +43,7 @@
 
         return [
             'display: inline-block;',
-            'padding: 0.1em 0.5em;',
+            'padding: 0.2em 0.6em;',
             'border-radius: 0.3em;',
             'background: ' + color + ';',
             'color: ' + textColor + ';',
@@ -51,7 +51,8 @@
             'text-shadow: 0 1px 1px rgba(0,0,0,0.2);',
             'box-shadow: ' + shadow + ';',
             'line-height: 1;',
-            'font-weight: bold;'
+            'font-weight: bold;',
+            'font-size: 1.2em;'
         ].join(' ');
     }
 
@@ -114,7 +115,7 @@
                         var icon = ratingIcons[src];
                         var div = $(
                             '<div style="display:flex;">' +
-                            '<div style="margin-right:5px;"><img src="' + icon + '" style="height:2em;width:2em;"></div>' +
+                            '<div style="margin-right:5px;"><img src="' + icon + '" style="height:2.1em;width:2.1em;"></div>' +
                             '<div style="' + getRatingColor(formatNumber(val)) + '">' + formatNumber(val) + '</div>' +
                             '</div>'
                         );
