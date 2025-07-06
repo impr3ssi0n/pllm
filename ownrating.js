@@ -43,7 +43,7 @@
 
         return [
             'display: inline-block;',
-            'padding: 0.2em 0.6em;',
+            'padding: 0.1em 0.5em;',
             'border-radius: 0.3em;',
             'background: ' + color + ';',
             'color: ' + textColor + ';',
