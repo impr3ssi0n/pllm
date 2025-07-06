@@ -114,7 +114,7 @@
                         var icon = ratingIcons[src];
                         var div = $(
                             '<div style="display:flex;">' +
-                            '<div style="margin-right:5px;"><img src="' + icon + '" style="height:1.5em;width:1.5em;"></div>' +
+                            '<div style="margin-right:5px;"><img src="' + icon + '" style="height:1.6em;width:1.6em;"></div>' +
                             '<div style="' + getRatingColor(formatNumber(val)) + '">' + formatNumber(val) + '</div>' +
                             '</div>'
                         );
