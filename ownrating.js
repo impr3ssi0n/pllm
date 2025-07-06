@@ -76,7 +76,7 @@
         };
 
         var network = new Lampa.Reguest();
-        var apiUrl = "http://192.168.1.49:5105/api/lampa";
+        var apiUrl = "http://192.168.1.36:5000/api/lampa";
 
         Lampa.Listener.follow('full', function (e) {
             if (e.type !== 'complite') return;
