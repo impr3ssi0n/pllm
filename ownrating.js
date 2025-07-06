@@ -56,11 +56,12 @@
     }
 
     function convertScoreToFivePointScale(score) {
-        return (score / 10).toFixed(1);
+        var num = parseFloat(score);
+        return (num / 10).toFixed(1);
     }
 
-    function formatNumber(num) {
-        const number = parseFloat(num);
+    function formatNumber(score) {
+        var num = parseFloat(score);
         return (num >= 1 && num <= 9) ? num.toFixed(1) : String(num);
     }
 
@@ -113,7 +114,7 @@
                         var icon = ratingIcons[src];
                         var div = $(
                             '<div style="display:flex;">' +
-                            '<div style="margin-right:12px;"><img src="' + icon + '" style="height:1.5em;width:1.5em;"></div>' +
+                            '<div style="margin-right:10px;"><img src="' + icon + '" style="height:1.5em;width:1.5em;"></div>' +
                             '<div style="' + getRatingColor(formatNumber(val)) + '">' + formatNumber(val) + '</div>' +
                             '</div>'
                         );
