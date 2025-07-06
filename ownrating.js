@@ -43,7 +43,7 @@
 
         return [
             'display: inline-block;',
-            'padding: 0.1em 0.2em;',
+            'padding: 0.1em 0.5em;',
             'border-radius: 0.3em;',
             'background: ' + color + ';',
             'color: ' + textColor + ';',
@@ -114,7 +114,7 @@
                         var icon = ratingIcons[src];
                         var div = $(
                             '<div style="display:flex;">' +
-                            '<div style="margin-right:5px;"><img src="' + icon + '" style="height:1.6em;width:1.6em;"></div>' +
+                            '<div style="margin-right:5px;"><img src="' + icon + '" style="height:2em;width:2em;"></div>' +
                             '<div style="' + getRatingColor(formatNumber(val)) + '">' + formatNumber(val) + '</div>' +
                             '</div>'
                         );
