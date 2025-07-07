@@ -52,7 +52,7 @@
             'box-shadow: ' + shadow + ';',
             'line-height: 1;',
             'font-weight: bold;',
-            'font-size: 1.17em;'
+            'font-size: 1.18em;'
         ].join(' ');
     }
 
@@ -115,7 +115,7 @@
                         var icon = ratingIcons[src];
                         var div = $(
                             '<div style="display:flex;">' +
-                            '<div style="margin-right:5px;"><img src="' + icon + '" style="height:1.8em;width:1.8em;"></div>' +
+                            '<div style="margin-right:5px;"><img src="' + icon + '" style="height:1.9em;width:1.9em;"></div>' +
                             '<div style="' + getRatingColor(formatNumber(val)) + '">' + formatNumber(val) + '</div>' +
                             '</div>'
                         );
