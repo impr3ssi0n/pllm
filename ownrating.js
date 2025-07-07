@@ -52,7 +52,7 @@
             'box-shadow: ' + shadow + ';',
             'line-height: 1;',
             'font-weight: bold;',
-            'font-size: 1.18em;'
+            'font-size: 1.19em;'
         ].join(' ');
     }
 
